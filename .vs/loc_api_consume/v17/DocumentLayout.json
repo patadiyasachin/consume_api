@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\views\\city\\citylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:views\\city\\citylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\views\\country\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:views\\country\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\views\\city\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:views\\city\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\views\\state\\statelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:views\\state\\statelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\views\\country\\countrygetall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:views\\country\\countrygetall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|d:\\b.tech\\sem-6\\adv .net\\loc_api_consume\\models\\countrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9623F3E0-1219-472C-A192-69B7D54EF7C2}|loc_api_consume.csproj|solutionrelative:models\\countrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 272,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StateController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Controllers\\StateController.cs",
+              "RelativeToolTip": "Controllers\\StateController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T02:39:01.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\Country\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\AddEdit.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\Country\\AddEdit.cshtml",
+              "RelativeToolTip": "Views\\Country\\AddEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T03:39:21.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\City\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\AddEdit.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\City\\AddEdit.cshtml",
+              "RelativeToolTip": "Views\\City\\AddEdit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T12:02:48.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StateList.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\State\\StateList.cshtml",
+              "RelativeDocumentMoniker": "Views\\State\\StateList.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\State\\StateList.cshtml",
+              "RelativeToolTip": "Views\\State\\StateList.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T03:08:27.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CityController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Controllers\\CityController.cs",
+              "RelativeToolTip": "Controllers\\CityController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAuwEMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T02:33:31.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityList.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\City\\CityList.cshtml",
+              "RelativeDocumentMoniker": "Views\\City\\CityList.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\City\\CityList.cshtml",
+              "RelativeToolTip": "Views\\City\\CityList.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T02:46:06.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CountryController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "Controllers\\CountryController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:50:37.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CountryGetAll.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\Country\\CountryGetAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\CountryGetAll.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Views\\Country\\CountryGetAll.cshtml",
+              "RelativeToolTip": "Views\\Country\\CountryGetAll.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T02:44:17.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CountryModel.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Models\\CountryModel.cs",
+              "RelativeDocumentMoniker": "Models\\CountryModel.cs",
+              "ToolTip": "D:\\B.TECH\\sem-6\\adv .net\\loc_api_consume\\Models\\CountryModel.cs",
+              "RelativeToolTip": "Models\\CountryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T15:57:21.998Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 272,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

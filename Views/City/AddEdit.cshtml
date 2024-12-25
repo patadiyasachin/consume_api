@@ -1,0 +1,86 @@
+﻿@model CityModel
+<div id="main" class="main">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Add City Form</h5>
+            <div class="container mt-2">
+                <h2>City Information</h2>
+                <form asp-controller="City" asp-action="Save" method="post" class="row g-3">
+
+                    <input type="hidden" asp-for="CityID" id="CityID" />
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <div class="col-12  g-3">
+                        <label class="p-1">County ID</label>
+                        <select id="CountryID" class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.countryList, "CountryID", "CountryName"))">
+                            <option value="">--Select Country--</option>
+                        </select>
+                        <span asp-validation-for="CountryID" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12  g-3">
+                        <label class="p-1">State ID</label>
+                        <select id="StateID" class="form-control" asp-for="StateID">
+                            <option value="">Select State</option>
+                        </select>
+                        <span asp-validation-for="StateID" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-6  g-3">
+                        <label class="p-1">City Name</label>
+                        <input type="text" asp-for="CityName" class="form-control" id="cityName" placeholder="City Name">
+                        <span asp-validation-for="CityName" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-6  g-3">
+                        <label class="p-1">City code</label>
+                        <input type="text" asp-for="CityCode" class="form-control" id="CityCode" placeholder="City Code">
+                        <span asp-validation-for="CityCode" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12  g-3">
+                        <button type="submit" class="btn btn-success w-50 align-center g-5">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#CountryID").change(function () {
+                var countryId = $(this).val();
+                if (countryId) {
+                    $.ajax({
+                        url: '@Url.Action("GetStatesByCountry", "City")',
+                        type: "POST", // Changed to POST
+                        data: { CountryID: countryId }, // Use 'CountryID' to match controller
+                        success: function (data) {
+                            $("#StateID")
+                                .empty()
+                                .append('<option value="">Select State</option>');
+                            $.each(data, function (i, state) {
+                                $("#StateID").append(
+                                    '<option value="' +
+                                    state.stateID +
+                                    '">' +
+                                    state.stateName +
+                                    "</option>"
+                                );
+                            });
+                            console.log(state.stateID);
+                        },
+                        error: function (xhr, status, error) {
+                            console.error(error);
+                        },
+                    });
+                } else {
+                    $("#StateID").empty().append('<option value="">Select State</option>');
+                }
+            });
+        });
+    </script>
+}

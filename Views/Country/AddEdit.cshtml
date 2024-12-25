@@ -1,0 +1,63 @@
+﻿@model CountryModel
+<div id="main" class="main">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Add Country Form</h5>
+            <div class="container mt-2">
+                <h2>Country Information</h2>
+                <form asp-controller="Country" asp-action="Save" method="post" class="row g-3">
+
+                    <input type="hidden" asp-for="CountryID" id="CountryID" />
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <div class="col-6  g-3">
+                        <label class="p-1">Country Name</label>
+                        <input type="text" asp-for="CountryName" class="form-control" id="CountryName" placeholder="Country Name">
+                        <span asp-validation-for="CountryName" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-6  g-3">
+                        <label class="p-1">Country code</label>
+                        <input type="text" asp-for="CountryCode" class="form-control" id="CountryCode" placeholder="Country Code">
+                        <span asp-validation-for="CountryCode" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12  g-3">
+                        <button type="submit" class="btn btn-success w-50 align-center g-5">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+@*
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Load countries into dropdown
+            $.getJSON('/Country/CountryDropDown', function (data) {
+                $.each(data, function (key, entry) {
+                    $('#CountryID').append($('<option></option>').attr('value', entry.countryID).text(entry.countryName));
+                });
+            });
+
+            // Load Countrys dynamically based on selected country
+            $('#CountryID').change(function () {
+                var countryId = $(this).val();
+                $('#CountryID').empty().append('<option value="">Select Country</option>');
+                if (countryId) {
+                    $.getJSON(/Country/CountryDropDown/${countryId}, function (data) {
+                        $.each(data, function (key, entry) {
+                            $('#CountryID').append($('<option></option>').attr('value', entry.CountryID).text(entry.CountryName));
+                        });
+                    });
+                }
+            });
+        });
+    </script>
+} *@

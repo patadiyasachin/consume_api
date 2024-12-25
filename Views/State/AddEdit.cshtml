@@ -1,0 +1,41 @@
+﻿@model StateModel
+<div id="main" class="main">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Add State Form</h5>
+            <div class="container mt-2">
+                <h2>State Information</h2>
+                <form asp-controller="State" asp-action="Save" method="post" class="row g-3">
+
+                    <input type="hidden" asp-for="stateID" id="StateID" />
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+
+                    <div class="col-12  g-3">
+                        <label class="p-1">County ID</label>
+                        <select class="form-control" asp-for="countryID" asp-items="@(new SelectList(ViewBag.CountryList, "CountryID", "CountryName"))">
+                            <option value="">--Select Country--</option>
+                        </select>
+                        <span asp-validation-for="countryID" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-6  g-3">
+                        <label class="p-1">State Name</label>
+                        <input type="text" asp-for="stateName" class="form-control" id="StateName" placeholder="State Name">
+                        <span asp-validation-for="stateName" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-6  g-3">
+                        <label class="p-1">State code</label>
+                        <input type="text" asp-for="stateCode" class="form-control" id="StateCode" placeholder="State Code">
+                        <span asp-validation-for="stateCode" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12  g-3">
+                        <button type="submit" class="btn btn-success w-50 align-center g-5">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

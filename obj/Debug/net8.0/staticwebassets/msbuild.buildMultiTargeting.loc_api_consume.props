@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\loc_api_consume.props" />
+</Project>
